@@ -17,7 +17,7 @@ def main():
     df_v = pd.read_csv('2023_vwap.csv')
     
     # Create a chart
-    chart = StreamlitChart(width=300, height=500)
+    chart = StreamlitChart(width=350, height=600)
 
     chart.legend(visible=True)
 
